@@ -1,0 +1,95 @@
+:root{
+    --primary-color: #757575;
+    --black-color: #000000;
+    --accent-color: #2196F3;
+    --dark-color: #212121;
+    --greylight-color: #ECECEC;
+    --greylight-fon: #F5F4FA;
+    --white-color: #FFFFFF;
+    --white-color-transp: rgba(255, 255, 255, 0.6);
+    --fon-dark:#2F303A;}
+
+body{background-color: var(--white-color);
+    color: var(--primary-color);
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    line-height: 1.14;
+    font-weight: 400;
+    letter-spacing: 0.03em;}
+
+.logo {font-family: Raleway, sans-serif;
+font-weight: 700;
+font-size: 26px;
+color: var(--accent-color);
+line-height: 1.19;}
+
+.logo-black{color: var(--black-color);}
+.logo-white{color: var(--white-color);}
+
+.portfol h3{font-weight: 700;
+font-size: 18px;
+line-height: 2;
+color: var(--dark-color);
+letter-spacing: 0.06em;}
+
+.portfol p{font-size: 16px;
+line-height: 1.87;
+color: var(--primary-color);}
+
+.header-list {
+    font-weight: 500;
+    color: var(--dark-color);
+    letter-spacing: 0.02em;}
+.h-pages {color: var(--dark-color);}
+.current, .h-pages:hover, .h-pages:focus{color: var(--accent-color);}
+
+.h-mail{color: var(--primary-color);}
+.h-mail:hover, .h-mail:focus{color: var(--accent-color);}
+
+.banner {background-color: var(--fon-dark);
+letter-spacing: 0.06em;
+ text-align: center;}
+
+.btn-primary, .second:hover, .second:focus{background-color: var(--accent-color);
+color: var(--white-color);
+font-size: 16px;
+font-weight: 700;
+border: none;}
+
+.second{background-color: var(--greylight-fon);
+color: var(--dark-color);}
+
+.features li p {line-height: 1.71;}
+.features .h3 {text-transform: uppercase;
+font-weight: 700;
+color: var(--dark-color);}
+
+.comanda {font-size: 16px;
+text-align: center;
+line-height: 1.19;}
+
+.comanda h3{font-weight: 500;
+color: var(--dark-color);}
+
+ul {list-style-type:none;}
+
+h1{color: var(--white-color);
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-transform: uppercase;}
+
+h2{font-size: 36px;
+line-height: 1.16;
+text-align: center;
+font-weight: 700;
+color: var(--dark-color);}
+
+a {text-decoration: none;}
+
+.dark-fon{background-color: var(--fon-dark) ;}
+.kontakt-light{color: var(--white-color-transp);}
+.kontakt-white{color: var(--white-color);}
+.not-italic{font-style: normal;
+line-height: 1.71;}
+.kontakt-light:hover, .kontakt-light:focus, .kontakt-white:hover, .kontakt-white:focus {color: var(--accent-color);}
