@@ -14,76 +14,94 @@ body{background-color: var(--white-color);
     font-family: Roboto, sans-serif;
     font-size: 14px;
     line-height: 1.14;
-    font-weight: 400;
     letter-spacing: 0.03em;}
 
 .logo {font-family: Raleway, sans-serif;
 font-weight: 700;
 font-size: 26px;
 color: var(--accent-color);
-line-height: 1.19;}
+line-height: 1.19;
+letter-spacing: 0.03em;}
 
 .logo-black{color: var(--black-color);}
 .logo-white{color: var(--white-color);}
 
-.portfol h3{font-weight: 700;
+.portfol-title{font-weight: 700;
 font-size: 18px;
 line-height: 2;
 color: var(--dark-color);
 letter-spacing: 0.06em;}
 
-.portfol p{font-size: 16px;
+.portfol-text{font-size: 16px;
 line-height: 1.87;
-color: var(--primary-color);}
+color: var(--primary-color);
+letter-spacing: 0.03em;}
 
 .header-list {
-    font-weight: 500;
-    color: var(--dark-color);
-    letter-spacing: 0.02em;}
-.h-pages {color: var(--dark-color);}
-.current, .h-pages:hover, .h-pages:focus{color: var(--accent-color);}
+font-weight: 500;
+color: var(--dark-color);
+letter-spacing: 0.02em;
+list-style-type:none;}
+.head-pages {color: var(--dark-color);}
+.current, .head-pages:hover, .head-pages:focus{color: var(--accent-color);}
 
-.h-mail{color: var(--primary-color);}
-.h-mail:hover, .h-mail:focus{color: var(--accent-color);}
+.head-mail{color: var(--primary-color);}
+.head-mail:hover, .head-mail:focus{color: var(--accent-color);}
 
 .banner {background-color: var(--fon-dark);
 letter-spacing: 0.06em;
  text-align: center;}
 
-.btn-primary, .second:hover, .second:focus{background-color: var(--accent-color);
+ .banner-title{color: var(--white-color);
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-transform: uppercase;
+letter-spacing: 0.06em;}
+
+.button-primary {background-color: var(--accent-color);
 color: var(--white-color);
 font-size: 16px;
 font-weight: 700;
-border: none;}
+border: none;
+cursor: pointer;
+letter-spacing: 0.06em;}
+
+.btn-primary, .second:hover, .second:focus{background-color: var(--accent-color);
+color: var(--white-color);
+font-size: 16px;
+font-weight: 500;
+border: none;
+cursor: pointer;
+letter-spacing: 0.03em;}
 
 .second{background-color: var(--greylight-fon);
 color: var(--dark-color);}
 
-.features li p {line-height: 1.71;}
-.features .h3 {text-transform: uppercase;
+.features {list-style-type:none;}
+.features-text {line-height: 1.71;}
+.features-title {text-transform: uppercase;
 font-weight: 700;
 color: var(--dark-color);}
 
-.comanda {font-size: 16px;
-text-align: center;
-line-height: 1.19;}
+.comanda {text-align: center;}
 
-.comanda h3{font-weight: 500;
-color: var(--dark-color);}
+.comanda-title{font-weight: 500;
+color: var(--dark-color);
+font-size: 16px;
+line-height: 1.19;
+letter-spacing: 0.03em;}
 
-ul {list-style-type:none;}
+.comanda-text{font-size: 16px;
+line-height: 1.19;
+letter-spacing: 0.03em;}
 
-h1{color: var(--white-color);
-font-weight: 900;
-font-size: 44px;
-line-height: 1.36;
-text-transform: uppercase;}
-
-h2{font-size: 36px;
+.section-title{font-size: 36px;
 line-height: 1.16;
 text-align: center;
 font-weight: 700;
-color: var(--dark-color);}
+color: var(--dark-color);
+letter-spacing: 0.03em;}
 
 a {text-decoration: none;}
 
@@ -91,5 +109,6 @@ a {text-decoration: none;}
 .kontakt-light{color: var(--white-color-transp);}
 .kontakt-white{color: var(--white-color);}
 .not-italic{font-style: normal;
-line-height: 1.71;}
+line-height: 1.71;
+list-style-type:none;}
 .kontakt-light:hover, .kontakt-light:focus, .kontakt-white:hover, .kontakt-white:focus {color: var(--accent-color);}
